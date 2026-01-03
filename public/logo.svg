@@ -1,0 +1,33 @@
+<svg width="761" height="761" viewBox="0 0 761 761" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Beige background -->
+  <rect width="761" height="761" fill="#E8DCC8"/>
+  
+  <!-- Gold outer frame -->
+  <rect x="80" y="80" width="600" height="600" fill="#B8924A"/>
+  
+  <!-- White inner frame border (double line effect) -->
+  <rect x="100" y="100" width="560" height="560" fill="#E8DCC8"/>
+  <rect x="110" y="110" width="540" height="540" fill="#B8924A"/>
+  <rect x="120" y="120" width="520" height="520" fill="#E8DCC8"/>
+  
+  <!-- House icon -->
+  <!-- Roof -->
+  <path d="M 380 280 L 500 360 L 500 460 L 260 460 L 260 360 Z" fill="#E8DCC8" stroke="#B8924A" stroke-width="12"/>
+  
+  <!-- Door -->
+  <rect x="360" y="400" width="40" height="60" fill="#B8924A"/>
+  
+  <!-- Windows -->
+  <rect x="300" y="380" width="35" height="35" fill="#B8924A"/>
+  <rect x="425" y="380" width="35" height="35" fill="#B8924A"/>
+  
+  <!-- Text CHOICE AND CHOICES -->
+  <text x="380" y="530" font-family="serif" font-size="72" font-weight="bold" fill="#B8924A" text-anchor="middle">CHOICE AND</text>
+  <text x="380" y="600" font-family="serif" font-size="72" font-weight="bold" fill="#B8924A" text-anchor="middle">CHOICES</text>
+  
+  <!-- Underline -->
+  <line x1="110" y1="620" x2="650" y2="620" stroke="#B8924A" stroke-width="4"/>
+  
+  <!-- Text HOTEL AND EVENT CENTER -->
+  <text x="380" y="660" font-family="serif" font-size="38" font-weight="600" fill="#B8924A" text-anchor="middle">HOTEL AND EVENT CENTER</text>
+</svg>
