@@ -195,8 +195,8 @@ export default function Home() {
           <div className="card group cursor-pointer">
             <div className="relative aspect-video rounded-xl overflow-hidden mb-4">
               <Image
-                src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?q=80&w=600"
-                alt="Entertainment"
+                src="/images/cc-pix6.png"
+                alt="Entertainment & Fun"
                 fill
                 className="object-cover group-hover:scale-110 transition-transform duration-500"
               />
@@ -221,8 +221,8 @@ export default function Home() {
           <div className="card group cursor-pointer">
             <div className="relative aspect-video rounded-xl overflow-hidden mb-4">
               <Image
-                src="https://images.unsplash.com/photo-1524178232363-1fb2b075b655?q=80&w=600"
-                alt="Training"
+                src="/images/cc-pix9.png"
+                alt="Training & Development"
                 fill
                 className="object-cover group-hover:scale-110 transition-transform duration-500"
               />
@@ -256,22 +256,22 @@ export default function Home() {
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {[
-            "photo-1511795409834-ef04bbd61622",
-            "photo-1519671482749-fd09be7ccebf",
-            "photo-1523438885200-e635ba2c371e",
-            "photo-1566737236500-c8ac43014a67",
-            "photo-1519225421980-715cb0215aed",
-            "photo-1527529482837-4698179dc6ce",
-            "photo-1517457373958-b7bdd4587205",
-            "photo-1528605248644-14dd04022da1",
-          ].map((id, i) => (
+            { src: "/images/cc-1.webp", alt: "Choice and Choices event 1" },
+            { src: "/images/cc-2.jpg", alt: "Choice and Choices event 2" },
+            { src: "/images/cc-3.jpeg", alt: "Choice and Choices event 3" },
+            { src: "/images/cc-4.jpeg", alt: "Choice and Choices event 4" },
+            { src: "/images/cc-5.jpg", alt: "Choice and Choices event 5" },
+            { src: "/images/cc-6.webp", alt: "Choice and Choices event 6" },
+            { src: "/images/cc-7.jpeg", alt: "Choice and Choices event 7" },
+            { src: "/images/cc-pix2.png", alt: "Choice and Choices venue" },
+          ].map((item, i) => (
             <div
               key={i}
               className="relative aspect-square rounded-xl overflow-hidden group cursor-pointer"
             >
               <Image
-                src={`https://images.unsplash.com/${id}?q=80&w=400`}
-                alt={`Gallery image ${i + 1}`}
+                src={item.src}
+                alt={item.alt}
                 fill
                 className="object-cover group-hover:scale-110 transition-transform duration-500"
               />
@@ -519,9 +519,7 @@ export default function Home() {
           </div>
 
           <p className="text-[#99a0b3] text-sm text-center md:text-right">
-            © {new Date().getFullYear()} Choice and Choices Place Nigeria
-            Limited.
-            <br className="md:hidden" /> Crafted with care in Lagos.
+            Built by Niyexdroid Technologies.
           </p>
         </div>
       </footer>
